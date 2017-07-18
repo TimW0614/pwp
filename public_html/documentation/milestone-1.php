@@ -22,7 +22,15 @@
 		<p>Henry Ulibari</p>
 		<h2>age</h2>
 		<p>46</p>
-		<h2>Proffesion</h2>
-		<p>Henry founded a local sports Magazine covering all New Mexico sports.</p>
+		<h2>Profession</h2>
+		<p>Henry founded a local sports Magazine (NM Sports Magazine) covering all New Mexico sports.
+			Henry is looking to expand his magazine and add a website.</p>
+		<h2>Technology</h2>
+		<p>NM Sports Magazine has a headquarters in downtown Albuquerque, the office is set up with a reliable
+			high speed internet connection. All employees use macbooks and Iphones. Company also pays for cloud service</p>
+		<h2>Attitudes</h2>
+		<p>Henry is very driven with an upbeat and positive outlook, he is patient with his employees but expects the best</p>
+
+
 	</body>
 </html>
