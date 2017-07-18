@@ -30,7 +30,19 @@
 			high speed internet connection. All employees use macbooks and Iphones. Company also pays for cloud service</p>
 		<h2>Attitudes</h2>
 		<p>Henry is very driven with an upbeat and positive outlook, he is patient with his employees but expects the best</p>
-
+		<h2>Frustrations</h2>
+		<p>While Henry can be very patient, he has invested a lot to build a reputible company. Henry can grow aggitated
+			whenever deadlines are not met.</p>
+		<h2>Goals</h2>
+		<p>Henry wants to add a website to his company complete with blogs, podcasts, statistics, highlights,
+			and more. The goal is for the website to be up and running by the start of the next football season.</p>
+		<h2>Use Case</h2>
+		<p>Henrys son Brian is a graduate of the University of New Mexico. Brian attended the University on a full ride
+			athletic scholarship and majored in Computer Science. After graduating Brian was selected for an internship
+			at CBS Sports as a jr. Developer. Brian has become a well rounded Web Developer and has agreed to help his
+			dad with his website. In order to meet Henrys goals, Brian has decided to hire a jr. Developer. After attending
+			a networking event at fat pipe abq, Brian turns to DDC Bootcamp. After looking over my website it appears I may
+			be the perfect fit and he decides to call me in for a formal interview.</p>
 
 	</body>
 </html>
