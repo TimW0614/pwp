@@ -4,7 +4,7 @@
 		<title>timothymichael.org</title>
 	</head>
 	<body>
-		<h2>milestone 1</h2>
+		<h2>milestone 12</h2>
 		<h2>Purpose</h2>
 	</body>
 		<p>The purpose of my Personal Web Site Project is to promote myself to possible employers.
@@ -45,4 +45,4 @@
 			be the perfect fit and he decides to call me in for a formal interview.</p>
 
 	</body>
-</html>
+</html>l
