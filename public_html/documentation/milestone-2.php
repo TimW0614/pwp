@@ -17,18 +17,18 @@
 
 		<h2>Content</h2>
 
-		<p><em>Welcome</em>This section will welcome my viewers to my personal website</p>
+		<p><em>Welcome</em><br>This section will welcome my viewers to my personal website</p>
 
-		<p><em>Bio</em>This section of my webpage will be all "about me." It will descriptive information about who
+		<p><em>Bio</em><br>This section of my webpage will be all "about me." It will be descriptive information about who
 		I am and my goals.</p>
 
-		<p><em>Portfolio</em>My next section will feature coding projects that I have been a part of and be used as an
+		<p><em>Portfolio</em><br>My next section will feature coding projects that I have been a part of and be used as an
 		example for employers as to why I would be good for their needs.</p>
 
-		<p><em>Contact</em>This section will have information on how to get ahold of me as well as a request form for my
+		<p><em>Contact</em><br>This section will have information on how to get a hold of me as well as a request form for my
 		personal resume</p>
 
-		<p><em>footer</em>At the base of my page will be links to my profesional social media accounts such as linkedin,
+		<p><em>footer</em><br>At the base of my page will be links to my profesional social media accounts such as linkedin,
 		twitter and github.</p>
 	</body>
 </html>
