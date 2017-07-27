@@ -33,5 +33,6 @@
 		<p><em>footer</em><br>At the base of my page will be links to my profesional social media accounts such as
 			linkedin,
 			twitter and github.</p>
+		<img src="images/mobile%20wire%20frame.png" alt="mobile wire frame"/>
 	</body>
 </html>
