@@ -35,6 +35,7 @@
 			twitter and github.</p>
 		<img src="images/mobile%20wire%20frame.png" alt="mobile wire frame"/>
 		<img src="images/web%20page%201.png" alt="web page 1"/>
-		<img src="images/web%20page%202.png" alt="web page 2">
+		<img src="images/web%20page%202.png" alt="web page 2"/>
+		<img src="images/web%20page%203.png" alt="web page 3"/>
 	</body>
 </html>
