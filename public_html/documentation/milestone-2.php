@@ -34,5 +34,6 @@
 			linkedin,
 			twitter and github.</p>
 		<img src="images/mobile%20wire%20frame.png" alt="mobile wire frame"/>
+		<img src="images/web%20page%201.png" alt="web page 1"/>
 	</body>
 </html>
