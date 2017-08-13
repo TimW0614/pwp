@@ -1,0 +1,18 @@
+body {
+
+	background-color: rgba(36, 41, 43, 1);
+	font-family: monospace, Serif, SansSerif;
+	color: white;
+	position: relative;
+}
+
+
+{
+background: url(../public_html/documentation/images/pwpbackground.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color:#fff;
+	background-color:#333;
+}
