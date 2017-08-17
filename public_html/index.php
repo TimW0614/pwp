@@ -40,7 +40,6 @@
 	<body class="sfooter">
 		<main id="home">
 			<div class="sfooter-content">
-				<header>
 					<!--NavBar Bootstrap Default Setting-->
 					<nav class="navbar navbar-default navbar-fixed-top">
 						<div class="container-fluid">
@@ -69,7 +68,17 @@
 						</div><!-- /.container-fluid -->
 					</nav>
 			</div>
-			</header>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="jumbotron">
+							<h1>Thank you for visiting</h1>
+							<br>
+							<p>TimothyMichael.org</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</main>
 	</body>
 </html>

@@ -9,10 +9,26 @@ body {
 
 main {
 	height: 100vh;
-	background:url(documentation/images/goldengate.jpg);
+	background: url(documentation/images/goldengate.jpg);
 	background-attachment: fixed;
 	background-size: cover;
-	color:#fff;
-	background-color:#333;
+	color: #fff;
+	background-color: #333;
+}
+
+
+/*-----------------------
+ Home
+-------------------------*/
+
+.jumbotron {
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 0;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	color: navy;
+	font-family: "Playball", serif;
 }
 
