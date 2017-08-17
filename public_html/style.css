@@ -22,13 +22,17 @@ main {
 -------------------------*/
 
 .jumbotron {
+	margin-top: 100px;
 	background-color: rgba(255,255,255,0.4);
 	border-radius: 0;
 	text-align: center;
 }
 
 .jumbotron h1 {
-	color: navy;
+	color: black;
 	font-family: "Playball", serif;
 }
 
+.jumbotron p {
+	color: black;
+}
