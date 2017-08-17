@@ -23,7 +23,7 @@ main {
 
 .jumbotron {
 	margin-top: 100px;
-	background-color: rgba(255,255,255,0.4);
+	background-color: rgba(135,140,128,0.2);
 	border-radius: 0;
 	text-align: center;
 }
@@ -35,4 +35,5 @@ main {
 
 .jumbotron p {
 	color: black;
+	font-size: 25px;
 }
