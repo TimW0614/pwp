@@ -41,7 +41,7 @@ body {
 
 .jumbotron {
 	margin-top: 160px;
-	background-color: rgba(135,140,128,0.2);
+	background-color: rgba(217, 237, 247, 0.27);;
 	border-radius: 0;
 	text-align: center;
 }
@@ -62,6 +62,14 @@ body {
 	font-size: 20px;
 	margin-top: 18.3rem;
 }
+
+.bg-info {
+	background-color: rgba(217, 237, 247, 0.27);
+}
+
+/*-----------------------
+ portfolio
+-------------------------*/
 
 img {
 	vertical-align: middle;

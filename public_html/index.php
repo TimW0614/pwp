@@ -105,8 +105,13 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="section-title"><span>Portfolio</span></h1>
+							<h1 class="section-title"><span><strong>Portfolio</strong></span></h1>
 							<img src="documentation/images/portfolioplaceholder.png">
+							<h2><strong>DeepDiveTutor</strong></h2>
+							<p>Deep Dive Tutor is a web application that gives Deep Dive Bootcamp students the ability to
+							reach out to Deep Dive Alumi for tutoring. Students can pair up with tutors based on their needs
+							and the strengths of the tutors. This will help with the students success as well as keep the
+							curriculum fresh in the alumni's mind.</p>
 						</div>
 					</div>
 				</div>
