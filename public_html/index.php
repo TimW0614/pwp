@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="UTF-8"/>
 		<meta http-equiv="X-UA-Compatable" content="IE=edge"/>
@@ -36,10 +36,9 @@
 
 		<title>timothymichael.org</title>
 	</head>
-	<a name="page-top"></a>
 	<body class="sfooter">
-		<main id="home">
-			<div class="sfooter-content">
+			<header>
+				<div class="sfooter-content">
 					<!--NavBar Bootstrap Default Setting-->
 					<nav class="navbar navbar-default navbar-fixed-top">
 						<div class="container-fluid">
@@ -53,9 +52,7 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-
 							</div>
-
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav navbar-right">
@@ -67,8 +64,11 @@
 							</div><!-- /.navbar-collapse -->
 						</div><!-- /.container-fluid -->
 					</nav>
-			</div>
+				</div>
+			</header>
+		<section id="home">
 
+		</section>
 			<!-- Home section with welcome message-->
 			<div class="container">
 				<div class="row">
@@ -83,7 +83,7 @@
 			</div>
 
 			<!-- Bio Section-->
-			<section class="bg-info text-center">
+			<section id="bio" class="bg-info text-center">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3">
@@ -96,7 +96,18 @@
 						in web developement</p>
 						<p>Thank your for visiting my website. Please view the contact form to request a copy of my resume and,
 						leave any feed back!</p>
+					</div>
+				</div>
+			</section>
 
+			<!--Portfolio Section-->
+			<section id="portfolio" class="bg-info text-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="section-title"><span>Portfolio</span></h1>
+							<img src="documentation/images/portfolioplaceholder.png">
+						</div>
 					</div>
 				</div>
 			</section>
