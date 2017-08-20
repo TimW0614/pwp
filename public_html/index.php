@@ -112,10 +112,26 @@
 							reach out to Deep Dive Alumi for tutoring. Students can pair up with tutors based on their needs
 							and the strengths of the tutors. This will help with the students success as well as keep the
 							curriculum fresh in the alumni's mind.</p>
+							<h2><strong>Technical Skills</strong></h2>
+							<ul>
+							<li>PHP</li>
+							<li>mySQL</li>
+							<li>HTML5</li>
+							<li>CSS</li>
+							<li>javascript</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</section>
 		</main>
+
+		<footer>
+			<div class="text-center">
+				<p class="foot-content">Copyright &copy; Timothy Williams 2017</p>
+			</div>
+		</footer>
+
+
 	</body>
 </html>

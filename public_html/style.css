@@ -76,3 +76,35 @@ img {
 	height: 200PX;
 	width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------
+ footer
+-------------------------*/
+
+.foot-content {
+	font-size: 12px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	margin-bottom: 0;
+	background: black;
+	color: lightblue;
+}
