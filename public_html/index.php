@@ -59,7 +59,7 @@
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav navbar-right">
-									<li class="active"><a href="#page-top">Home <span class="sr-only">(current)</span></a></li>
+									<li><a href="Home">Home</a></li>
 									<li><a href="#bio">Bio</a></li>
 									<li><a href="#portfolio">Portfolio</a></li>
 									<li><a href="#contact">Contact</a></li>
@@ -68,17 +68,38 @@
 						</div><!-- /.container-fluid -->
 					</nav>
 			</div>
+
+			<!-- Home section with welcome message-->
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="jumbotron">
-							<h1>Thank you for visiting</h1>
+							<h1>Welcome to</h1>
 							<br>
-							<p>TimothyMichael.org</p>
+							<p>timothymichael.org</p>
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<!-- Bio Section-->
+			<section class="bg-info text-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<img class="img-responsive img" src="documentation/images/gsw.png" alt="warriors"/>
+						</div>
+						<div class="col-md-7 col-md-offset-1"/>
+						<h1><strong>Bio</strong></h1>
+						<p>Hello, my name is Timothy Williams. I am an aspiring web developer.</p>
+						<p>My passion is coming up with creative ways to to express a message and there is no better way than
+						in web developement</p>
+						<p>Thank your for visiting my website. Please view the contact form to request a copy of my resume and,
+						leave any feed back!</p>
+
+					</div>
+				</div>
+			</section>
 		</main>
 	</body>
 </html>
