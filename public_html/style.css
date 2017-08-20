@@ -16,6 +16,13 @@ main {
 	background-color: #333;
 }
 
+/*-----------------------
+ nav bar
+-------------------------*/
+
+.container-fluid {
+	background: rgb(155, 205, 238);
+}
 
 /*-----------------------
  Home
