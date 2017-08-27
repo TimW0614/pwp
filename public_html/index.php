@@ -125,54 +125,62 @@
 		</section>
 
 		<!--contact form-->
-		<section id="contact">
-			<div class="row">
-				<div class="col-md-5 col-md-offset-6">
-					<form id="contact" action="php/mailer.php" method="POST">
-						<div class="form-group">
-							<label for="name">Name <span class="text-danger">*</span></label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-user" aria-hidden="true"></i>
+		<section id="contact" class="bg-info text-center">
+			<div class="container">
+				<h1><strong>Contact</strong></h1>
+				<div class="row">
+					<div class="col-md-4 offset-1">
+						<iframe width="600" height="450" frameborder="0" style="border:0"
+								  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-aEFujF7IocRpIMfWONyxNU&key=AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8"
+								  allowfullscreen></iframe>
+					</div>
+					<div class="col-md-5 col-md-offset-3">
+						<form id="contact" action="php/mailer.php" method="POST">
+							<div class="form-group">
+								<label for="name">Name <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</div>
+									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 								</div>
-								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 							</div>
-						</div>
-						<div class="form-group">
-							<label for="email">Email <span class="text-danger">*</span></label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-envelope" aria-hidden="true"></i>
+							<div class="form-group">
+								<label for="email">Email <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+									</div>
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 								</div>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 							</div>
-						</div>
-						<div class="form-group">
-							<label for="subject">Subject</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-pencil" aria-hidden="true"></i>
+							<div class="form-group">
+								<label for="subject">Subject</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-pencil" aria-hidden="true"></i>
+									</div>
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 								</div>
-								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 							</div>
-						</div>
-						<div class="form-group">
-							<label for="message">Message <span class="text-danger">*</span></label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-comment" aria-hidden="true"></i>
+							<div class="form-group">
+								<label for="message">Message <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-comment" aria-hidden="true"></i>
+									</div>
+									<textarea class="form-control" rows="5" id="message" name="message"
+												 placeholder="Message (2000 characters max)"></textarea>
 								</div>
-								<textarea class="form-control" rows="5" id="message" name="message"
-											 placeholder="Message (2000 characters max)"></textarea>
 							</div>
-						</div>
 
-						<!-- Google reCAPTCHA -->
-						<div class="g-recaptcha" data-sitekey="----"></div>
+							<!-- Google reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="----"></div>
 
-						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-					</form>
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+						</form>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -189,3 +197,6 @@
 
 	</body>
 </html>
+
+<!-- google maps api key
+AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8 -->
