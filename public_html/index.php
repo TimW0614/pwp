@@ -127,7 +127,7 @@
 		<!--contact form-->
 		<section id="contact">
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-5 col-md-offset-6">
 					<form id="contact" action="php/mailer.php" method="POST">
 						<div class="form-group">
 							<label for="name">Name <span class="text-danger">*</span></label>
