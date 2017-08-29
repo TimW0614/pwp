@@ -27,7 +27,7 @@
 		<![endif]-->
 
 		<!-- jQuery v3.0 -->
-		<script> src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -75,7 +75,7 @@
 					<div class="jumbotron">
 						<h1>Welcome to</h1>
 						<br>
-						<p>timothymichael.org</p>
+						<p>My Personal Website</p>
 					</div>
 				</div>
 			</div>
@@ -83,16 +83,16 @@
 
 		<!-- Bio Section-->
 		<section id="bio" class="bg-info text-center">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-3">
-						<img class="img-responsive img" src="documentation/images/gsw.png" alt="warriors"/>
+						<img class="img img-circle" src="documentation/images/wedsolo.jpg" alt="profile"/>
 					</div>
 					<div class="col-md-7 col-md-offset-1"/>
 					<h1><strong>Bio</strong></h1>
 					<p>Hello, my name is Timothy Williams. I am an aspiring web developer.</p>
 					<p>My passion is coming up with creative ways to express a message and there is no better way than
-						in web developement</p>
+						in web developement.</p>
 					<p>Thank your for visiting my website. Please view the contact form to request a copy of my resume and,
 						leave any feed back!</p>
 				</div>
@@ -101,11 +101,11 @@
 
 		<!--Portfolio Section-->
 		<section id="portfolio" class="bg-info text-center">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
 						<h1 class="section-title"><span><strong>Portfolio</strong></span></h1>
-						<img src="documentation/images/portfolioplaceholder.png">
+						<img src="documentation/images/header_logo.png">
 						<h2><strong>DeepDiveTutor</strong></h2>
 						<p>Deep Dive Tutor is a web application that gives Deep Dive Bootcamp students the ability to
 							reach out to Deep Dive Alumi for tutoring. Students can pair up with tutors based on their needs
@@ -126,77 +126,90 @@
 
 		<!--contact form-->
 		<section id="contact" class="bg-info text-center">
-			<div class="container">
-				<h1><strong>Contact</strong></h1>
-				<div class="row">
-					<div class="col-md-4 offset-1">
-						<iframe width="600" height="450" frameborder="0" style="border:0"
-								  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-aEFujF7IocRpIMfWONyxNU&key=AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8"
-								  allowfullscreen></iframe>
-					</div>
-					<div class="col-md-5 col-md-offset-3">
-						<form id="contact" action="php/mailer.php" method="POST">
-							<div class="form-group">
-								<label for="name">Name <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-user" aria-hidden="true"></i>
-									</div>
-									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="email">Email <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-envelope" aria-hidden="true"></i>
-									</div>
-									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="subject">Subject</label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-pencil" aria-hidden="true"></i>
-									</div>
-									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="message">Message <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-comment" aria-hidden="true"></i>
-									</div>
-									<textarea class="form-control" rows="5" id="message" name="message"
-												 placeholder="Message (2000 characters max)"></textarea>
-								</div>
-							</div>
-
-							<!-- Google reCAPTCHA -->
-							<div class="g-recaptcha" data-sitekey="----"></div>
-
-							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-						</form>
-					</div>
+			<div class="container-fluid"
+			<h1><strong>Contact</strong></h1>
+			<div class="row">
+				<div class="col-md-4 offset-1">
+					<iframe width="325" height="325" frameborder="0" style="border:0"
+							  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3S4w_T1lIocRKTJ8_AXuQaw&key=AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8"
+							  allowfullscreen></iframe>
 				</div>
+				<div class="col-md-5 col-md-offset-3">
+					<form id="contact" action="php/mailer.php" method="POST">
+						<div class="form-group">
+							<label for="name">Name <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="email">Email <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="subject">Subject</label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-pencil" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="message">Message <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+								</div>
+								<textarea class="form-control" rows="5" id="message" name="message"
+											 placeholder="Message (2000 characters max)"></textarea>
+							</div>
+						</div>
+
+						<!-- Google reCAPTCHA -->
+						<div class="g-recaptcha" data-sitekey="----"></div>
+
+						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+					</form>
+				</div>
+			</div>
 			</div>
 		</section>
 
 		</main>
 
 		<!-- footer -->
+
 		<footer>
 			<div class="text-center">
-				<p class="foot-content">Copyright &copy; Timothy Williams 2017</p>
+				<p class="foot-content">Copyright &copy; Timothy Williams 2017
+					<a href="https://github.com/TimW0614" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="https://www.linkedin.com/in/tim-williams0614" target="_blank"><i class="fa fa-linkedin-square"
+																													  aria-hidden="true"></i></a></p>
 			</div>
 		</footer>
+		<!---->
+		<!--		<footer>-->
+		<!--			<div class="text-center">-->
+		<!--				<p>Copyright &copy; Timothy Williams 2017</p>-->
+		<!--				<div class="col-xs-6 links">-->
+		<!--					<a href="https://github.com/TimW0614" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>-->
+		<!--					<a href="https://www.linkedin.com/in/tim-williams0614" target="_blank"><i class="fa fa-linkedin-square"-->
+		<!--																													  aria-hidden="true"></i></a>-->
+		<!--				</div>-->
+		<!--			</div>-->
+		<!--		</footer>-->
 
 
 	</body>
 </html>
 
-<!-- google maps api key
-AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8 -->
