@@ -129,12 +129,12 @@
 			<div class="container-fluid"
 			<h1><strong>Contact</strong></h1>
 			<div class="row">
-				<div class="col-md-4 offset-1">
+				<div class="col-md-6">
 					<iframe width="325" height="325" frameborder="0" style="border:0"
 							  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3S4w_T1lIocRKTJ8_AXuQaw&key=AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8"
 							  allowfullscreen></iframe>
 				</div>
-				<div class="col-md-5 col-md-offset-3">
+				<div class="col-md-5">
 					<form id="contact" action="php/mailer.php" method="POST">
 						<div class="form-group">
 							<label for="name">Name <span class="text-danger">*</span></label>
