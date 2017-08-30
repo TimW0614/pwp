@@ -67,6 +67,7 @@
 				</div>
 			</header>
 
+
 			<!-- Home section with welcome message-->
 			<div class="container">
 				<div class="row">
@@ -100,6 +101,7 @@
 				</div>
 			</section>
 
+
 			<!--Portfolio Section-->
 			<section id="portfolio" class="bg-info text-center">
 				<div class="container-fluid">
@@ -118,7 +120,8 @@
 								<li>mySQL</li>
 								<li>HTML5</li>
 								<li>CSS3</li>
-								<li>Bootstrap<li>
+								<li>Bootstrap
+								<li>
 								<li>JavaScript</li>
 								<li>jQuery</li>
 								<li>Angular</li>
@@ -127,6 +130,7 @@
 					</div>
 				</div>
 			</section>
+
 
 			<!--contact form-->
 			<section id="contact" class="bg-info text-center">
@@ -160,34 +164,33 @@
 							</div>
 							<div class="form-group">
 								<label for="subject">Subject</label></div>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-pencil" aria-hidden="true"></i>
-									</div>
-									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-pencil" aria-hidden="true"></i>
 								</div>
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 							</div>
-							<div class="form-group">
-								<label for="message">Message <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-comment" aria-hidden="true"></i>
-									</div>
-									<textarea class="form-control" rows="5" id="message" name="message"
-												 placeholder="Message (2000 characters max)"></textarea>
-								</div>
-							</div>
-
-							<!-- Google reCAPTCHA -->
-							<div class="g-recaptcha" data-sitekey="----"></div>
-
-							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-						</form>
 					</div>
+					<div class="form-group">
+						<label for="message">Message <span class="text-danger">*</span></label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<i class="fa fa-comment" aria-hidden="true"></i>
+							</div>
+							<textarea class="form-control" rows="5" id="message" name="message"
+										 placeholder="Message (2000 characters max)"></textarea>
+						</div>
+					</div>
+
+					<!-- Google reCAPTCHA -->
+					<div class="g-recaptcha" data-sitekey="----"></div>
+
+					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 				</div>
 			</section>
 		</div>
+
 
 		<!-- footer -->
 
@@ -196,7 +199,8 @@
 				<p class="foot-content">Copyright &copy; Timothy Williams 2017
 					<a href="https://github.com/TimW0614" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
 					<a href="https://www.linkedin.com/in/tim-williams0614" target="_blank"><i class="fa fa-linkedin-square"
-																													  aria-hidden="true"></i></a></p>
+																													  aria-hidden="true"></i></a>
+				</p>
 			</div>
 		</footer>
 
