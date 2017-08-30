@@ -66,9 +66,7 @@
 					</nav>
 				</div>
 			</header>
-			<section id="home">
 
-			</section>
 			<!-- Home section with welcome message-->
 			<div class="container">
 				<div class="row">
@@ -119,8 +117,11 @@
 								<li>PHP</li>
 								<li>mySQL</li>
 								<li>HTML5</li>
-								<li>CSS</li>
-								<li>javascript</li>
+								<li>CSS3</li>
+								<li>Bootstrap<li>
+								<li>JavaScript</li>
+								<li>jQuery</li>
+								<li>Angular</li>
 							</ul>
 						</div>
 					</div>
