@@ -89,14 +89,15 @@
 						<div class="col-md-3">
 							<img class="img img-circle" src="documentation/images/wedsolo.jpg" alt="profile"/>
 						</div>
-						<div class="col-md-7 col-md-offset-1"/>
-						<h1><strong>Bio</strong></h1>
-						<p>Hello, my name is Timothy Williams. I am an aspiring web developer.</p>
-						<p>My passion is coming up with creative ways to express a message and there is no better way than
-							in web developement.</p>
-						<p>Thank your for visiting my website. Please view the contact form to request a copy of my resume
-							and,
-							leave any feed back!</p>
+						<div class="col-md-7 col-md-offset-1">
+							<h1><strong>Bio</strong></h1>
+							<p>Hello, my name is Timothy Williams. I am an aspiring web developer.</p>
+							<p>My passion is coming up with creative ways to express a message and there is no better way than
+								in web developement.</p>
+							<p>Thank your for visiting my website. Please view the contact form to request a copy of my resume
+								and,
+								leave any feed back!</p>
+						</div>
 					</div>
 				</div>
 			</section>
