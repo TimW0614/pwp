@@ -42,6 +42,7 @@
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript"
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script src="js/form-validate.js"></script>
 
 		<!-- Google recaptcha -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -156,7 +157,7 @@
 								  allowfullscreen></iframe>
 					</div>
 					<div class="col-md-5">
-						<form id="contact" action="php/mailer.php" method="POST">
+						<form id="contact-form" action="php/mailer.php" method="POST" novalidate>
 							<div class="form-group">
 								<label for="name">Name <span class="text-danger">*</span></label>
 								<div class="input-group">
@@ -183,25 +184,25 @@
 								</div>
 								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 							</div>
-					</div>
-					<div class="form-group">
-						<label for="message">Message <span class="text-danger">*</span></label>
-						<div class="input-group">
-							<div class="input-group-addon">
-								<i class="fa fa-comment" aria-hidden="true"></i>
+							<div class="form-group">
+								<label for="message">Message <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-comment" aria-hidden="true"></i>
+									</div>
+									<textarea class="form-control" rows="5" id="message" name="message"
+												 placeholder="Message (2000 characters max)"></textarea>
+								</div>
 							</div>
-							<textarea class="form-control" rows="5" id="message" name="message"
-										 placeholder="Message (2000 characters max)"></textarea>
-						</div>
-					</div>
 
-					<!-- Google reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="----"></div>
+							<!-- Google reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="----"></div>
 
-					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-				</div>
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+						</form>
 			</section>
+			<div id="output-area"></div>
 		</div>
 
 
