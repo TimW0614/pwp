@@ -121,8 +121,7 @@
 								<li>mySQL</li>
 								<li>HTML5</li>
 								<li>CSS3</li>
-								<li>Bootstrap
-								<li>
+								<li>Bootstrap<li>
 								<li>JavaScript</li>
 								<li>jQuery</li>
 								<li>Angular</li>
@@ -140,8 +139,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<iframe frameborder="0" style="border:0"
-								  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3S4w_T1lIocRKTJ8_AXuQaw&key=AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8"
-								  allowfullscreen></iframe>
+								  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3S4w_T1lIocRKTJ8_AXuQaw&key													=AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8"allowfullscreen></iframe>
 					</div>
 					<div class="col-md-5">
 						<form id="contact" action="php/mailer.php" method="POST">
@@ -199,8 +197,8 @@
 			<div class="text-center">
 				<p class="foot-content">Copyright &copy; Timothy Williams 2017
 					<a href="https://github.com/TimW0614" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-					<a href="https://www.linkedin.com/in/tim-williams0614" target="_blank"><i class="fa fa-linkedin-square"
-																													  aria-hidden="true"></i></a>
+					<a href="https://www.linkedin.com/in/tim-williams0614" target="_blank">
+						<i class="fa fa-linkedin-square"  aria-hidden="true"></i></a>
 				</p>
 			</div>
 		</footer>
