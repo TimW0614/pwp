@@ -28,11 +28,23 @@
 
 		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+		<!-- Google recaptcha -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<title>timothymichael.org</title>
 	</head>
@@ -121,7 +133,8 @@
 								<li>mySQL</li>
 								<li>HTML5</li>
 								<li>CSS3</li>
-								<li>Bootstrap<li>
+								<li>Bootstrap
+								<li>
 								<li>JavaScript</li>
 								<li>jQuery</li>
 								<li>Angular</li>
@@ -139,7 +152,8 @@
 				<div class="row">
 					<div class="col-md-6">
 						<iframe frameborder="0" style="border:0"
-								  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3S4w_T1lIocRKTJ8_AXuQaw&key													=AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8"allowfullscreen></iframe>
+								  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3S4w_T1lIocRKTJ8_AXuQaw&key													=AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8"
+								  allowfullscreen></iframe>
 					</div>
 					<div class="col-md-5">
 						<form id="contact" action="php/mailer.php" method="POST">
@@ -198,7 +212,7 @@
 				<p class="foot-content">Copyright &copy; Timothy Williams 2017
 					<a href="https://github.com/TimW0614" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
 					<a href="https://www.linkedin.com/in/tim-williams0614" target="_blank">
-						<i class="fa fa-linkedin-square"  aria-hidden="true"></i></a>
+						<i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 				</p>
 			</div>
 		</footer>
