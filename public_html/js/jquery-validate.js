@@ -21,7 +21,7 @@ $(document).ready(function(){
 			},
 			subject: {
 				required: false,
-				maxlenght: 75
+				maxlength: 75
 			},
 			message: {
 				required: true,

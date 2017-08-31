@@ -42,12 +42,11 @@
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript"
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-		<script src="js/form-validate.js"></script>
 
 		<!-- jQuery Validate File -->
-		<script src="jQuery/form-validate.js"></script>
+		<script src="js/jquery-validate.js"></script>
 
-		<!-- Google recaptcha -->
+		<!-- Google reCaptcha -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<title>timothymichael.org</title>
@@ -199,7 +198,7 @@
 							</div>
 
 							<!-- Google reCAPTCHA -->
-							<div class="g-recaptcha" data-sitekey="----"></div>
+							<div class="g-recaptcha" data-sitekey="6LeD5y4UAAAAAHSd8RHZkgFCHz8pSnVJFkmLo7Ou"></div>
 
 							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
