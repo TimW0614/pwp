@@ -44,6 +44,9 @@
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 		<script src="js/form-validate.js"></script>
 
+		<!-- jQuery Validate File -->
+		<script src="jQuery/form-validate.js"></script>
+
 		<!-- Google recaptcha -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
