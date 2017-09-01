@@ -124,7 +124,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<h1 class="section-title"><span><strong>Portfolio</strong></span></h1>
-							<img class="img-responsive" src="documentation/images/header_logo.png">
+							<img class="img-responsive" src="documentation/images/header_logo.png" alt="headshot">
 							<h2><strong>DeepDiveTutor</strong></h2>
 							<p>Deep Dive Tutor is a web application that gives Deep Dive Bootcamp students the ability to
 								reach out to Deep Dive Alumi for tutoring. Students can pair up with tutors based on their needs
@@ -150,59 +150,62 @@
 
 			<!--contact form-->
 			<section id="contact" class="bg-info text-center">
-				<div class="container-fluid"
-				<h1><strong>Contact</strong></h1>
-				<div class="row">
-					<div class="col-md-6">
-						<iframe frameborder="0" style="border:0"
-								  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3S4w_T1lIocRKTJ8_AXuQaw&key													=AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8"
-								  allowfullscreen></iframe>
+				<div class="container-fluid">
+					<h1><strong>Contact</strong></h1>
+					<div class="row">
+						<div class="col-md-6">
+							<iframe frameborder="0" style="border:0"
+									  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3S4w_T1lIocRKTJ8_AXuQaw&key													=AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8"
+									  allowfullscreen></iframe>
+						</div>
+						<div class="col-md-5">
+							<form id="contact-form" action="php/mailer.php" method="POST" novalidate>
+								<div class="form-group">
+									<label for="name">Name <span class="text-danger">*</span></label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-user" aria-hidden="true"></i>
+										</div>
+										<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="email">Email <span class="text-danger">*</span></label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-envelope" aria-hidden="true"></i>
+										</div>
+										<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="subject">Subject</label></div>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-pencil" aria-hidden="true"></i>
+									</div>
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+								</div>
+								<div class="form-group">
+									<label for="message">Message <span class="text-danger">*</span></label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-comment" aria-hidden="true"></i>
+										</div>
+										<textarea class="form-control" rows="5" id="message" name="message"
+													 placeholder="Message (2000 characters max)"></textarea>
+									</div>
+								</div>
+
+								<!-- Google reCAPTCHA -->
+								<div class="g-recaptcha" data-sitekey="6LeD5y4UAAAAAHSd8RHZkgFCHz8pSnVJFkmLo7Ou"></div>
+
+								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+							</form>
+						</div>
 					</div>
-					<div class="col-md-5">
-						<form id="contact-form" action="php/mailer.php" method="POST" novalidate>
-							<div class="form-group">
-								<label for="name">Name <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-user" aria-hidden="true"></i>
-									</div>
-									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="email">Email <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-envelope" aria-hidden="true"></i>
-									</div>
-									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="subject">Subject</label></div>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-pencil" aria-hidden="true"></i>
-								</div>
-								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-							</div>
-							<div class="form-group">
-								<label for="message">Message <span class="text-danger">*</span></label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<i class="fa fa-comment" aria-hidden="true"></i>
-									</div>
-									<textarea class="form-control" rows="5" id="message" name="message"
-												 placeholder="Message (2000 characters max)"></textarea>
-								</div>
-							</div>
-
-							<!-- Google reCAPTCHA -->
-							<div class="g-recaptcha" data-sitekey="6LeD5y4UAAAAAHSd8RHZkgFCHz8pSnVJFkmLo7Ou"></div>
-
-							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-						</form>
+				</div>
 			</section>
 			<div id="output-area"></div>
 		</div>
@@ -219,7 +222,6 @@
 				</p>
 			</div>
 		</footer>
-
 	</body>
 </html>
 
