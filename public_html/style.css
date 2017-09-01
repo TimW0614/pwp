@@ -32,6 +32,12 @@ body {
 	background-color: #333;
 }
 
+@media (max-width: 768px) {
+	body {
+		background-attachment: scroll;
+	}
+}
+
 h1 {
 	color: lightgray;
 }
