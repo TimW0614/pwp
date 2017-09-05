@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8"/>
-		<meta http-equiv="X-UA-Compatable" content="IE=edge"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 		<!-- Latest compiled and minified CSS -->
@@ -124,7 +124,8 @@
 					<div class="row">
 						<div class="col-md-12">
 							<h1 class="section-title"><span><strong>Portfolio</strong></span></h1>
-							<img class="img-responsive" src="documentation/images/header_logo.png" alt="headshot">
+							<img class="img-responsive" src="documentation/images/deep-dive-logo-white-2017-final.png"
+								  alt="DeepDiveTutor">
 							<h2><strong>DeepDiveTutor</strong></h2>
 							<p>Deep Dive Tutor is a web application that gives Deep Dive Bootcamp students the ability to
 								reach out to Deep Dive Alumi for tutoring. Students can pair up with tutors based on their needs
@@ -154,9 +155,9 @@
 					<h1><strong>Contact</strong></h1>
 					<div class="row">
 						<div class="col-md-6">
-							<iframe frameborder="0" style="border:0"
-									  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3S4w_T1lIocRKTJ8_AXuQaw&key													=AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8"
-									  allowfullscreen></iframe>
+							<iframe
+								src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3S4w_T1lIocRKTJ8_AXuQaw&key													=AIzaSyAymMZP54-jl0-1p5PwnCqcRzDxqsurxZ8"
+								allowfullscreen></iframe>
 						</div>
 						<div class="col-md-5">
 							<form id="contact-form" action="php/mailer.php" method="POST" novalidate>
@@ -207,7 +208,8 @@
 					</div>
 				</div>
 			</section>
-			<div id="output-area"></div>
+			<div id="output-area">
+			</div>
 		</div>
 
 

@@ -13,6 +13,10 @@ body {
 	width: 100%;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 .sfooter {
 	display: flex;
 	flex-direction: column;
@@ -25,18 +29,13 @@ body {
 
 body {
 	height: 100vh;
-	background: url(documentation/images/goldengate.jpg) no-repeat center;
-	background-attachment: fixed;
+	background: url(documentation/images/goldengate.jpg) no-repeat center fixed;
 	background-size: cover;
 	color: #fff;
 	background-color: #333;
 }
 
-@media (max-width: 768px) {
-	body {
-		background-attachment: scroll;
-	}
-}
+
 
 h1 {
 	color: lightgray;
@@ -52,6 +51,11 @@ h1 {
 
 .navbar-default .navbar-brand {
 	color: rgb(204, 237, 255);
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	color: rgb(108, 205, 255);
+	background-color: transparent;
 }
 
 /*-----------------------
@@ -101,10 +105,12 @@ h1 {
  portfolio
 -------------------------*/
 
-img {
-	vertical-align: middle;
-	height: 200PX;
-	width: 100%;
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	background-color: rgba(128, 128, 128, 0.36);
+	padding: 1rem;
 }
 
 #portfolio > div > div > div > ul {
