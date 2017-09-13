@@ -26,3 +26,28 @@ Have a look at the [Google Maps API](https://developers.google.com/maps/web/) fo
 I also recommend FontAwesome for icons, and Google Fonts for custom typography. Your HTML looking great.
 
 Your Milestone 2a passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You are clear to begin development on your PWP. You'll want to build your PWP page in the following location: `public_html/index.php`, and the next Milestone will be a mid-development checkin.
+
+## Milestone 2b
+Your Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
+
+## PWP Milestone 3 Feedback
+Nice work on your PWP - this is a good start for a personal portfolio page. Your code looks great, and your project is built to spec - nice job.
+
+Going forward, it might be beneficial to feature a bit more content about yourself and your skill set if you plan on using this project to promote yourself as a web developer. At the very least, having your LinkedIn and GitHub links a bit more prominently displayed would be a good idea - they are a bit hard to find here.  
+
+Your contact form appears to be working well - check your email and see if you received my test message.
+
+Your Milestone 3 passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
+
+Your overall grade across all of your PWP Milestones is 33/40 points (82.5%).
+
+- Milestone 1 - 20%: Tier IV 40(0.2) = 8
+- Milestone 2a - 20%: Tier III 30(0.2) = 6
+- Milestone 2b - 10%: Tier IV 40(0.1) = 4
+- Milestone 3 - 50%: Tier III 30(0.5) = 15
+
+### Edits &amp; Suggestions
+- jQuery is loaded twice - remove either line 30 or 31.
+- Very small detail here - on line 158 the `<iframe>` tag has been split up on separate lines... in other words there are some carriage returns in the tag. This is flagged as a parse error in the W3 Validator - and might potentially cause an issue in a browser. Just make sure this `<iframe>` is on one line.
+- Consider reformatting your form error/success message area a bit so that it's not so wide under the form.
+- The social media icons in the footer may be just a little too small...
